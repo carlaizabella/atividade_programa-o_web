@@ -1,0 +1,180 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+@media (min-width: 90px) {
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        background-image: url(./Imagens/background\(1\).jpg);
+        background-size: cover;
+    }
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 9px;
+    min-height: 80px;
+    margin-right: 220px;
+    margin-left: 220px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'ALGERIAN', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 40, 116);
+    border-radius: 30px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.form-container {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin-left: 48px;
+}
+
+@media screen and (min-width: 1600px) {
+    .form-container {
+        justify-content: center;
+    }
+}
+
+.form-container>.content {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 32px 0;
+    border-radius: 5px;
+    border: rgb(220, 220, 220) solid 1px;
+    box-shadow: 1px 1px 2px rgb(220, 220, 220);
+}
+
+.form-wrapper {
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #006ba6;
+    color: #ffffff;
+}
+
+.login-container .title h2 {
+    margin: 12px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    text-align: center;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+    background-color: rgba(202, 223, 231, 0.623);
+}
+
+#loginForm .property {
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+#loginForm .property .label {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 50px;
+    text-align: right;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 60px;
+}
+
+#loginForm .property .value {
+    flex: 1;
+    margin-left: 8px;
+}
+
+#loginForm .property .value input {
+    float: left;
+    line-height: 8px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+#loginForm .actions {
+    padding: 1px;
+    margin: 8px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#loginForm .actions a {
+    color: #ff0000;
+    line-height: 34px;
+    margin-left: 4px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.entrar input {
+    margin-top: 20px;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 255, 232);
+    border-radius: 5px;
+}
+
+.cadastrar {
+    margin-top: 15px;
+    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastrar a {
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
